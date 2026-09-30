@@ -1,20 +1,40 @@
 {
-  "name": "Aranhinha Saltitante",
-  "short_name": "Aranhinha",
-  "description": "Corrida de aranhas em pixel art para jogar com os amigos no celular.",
+  "name": "Speeder",
+  "short_name": "Speeder",
+  "description": "Corrida de aranhas em pixel art: crie uma sala, chame os amigos e chegue primeiro.",
   "lang": "pt-BR",
   "id": "./",
   "start_url": "./",
   "scope": "./",
   "display": "fullscreen",
-  "display_override": ["fullscreen", "standalone"],
+  "display_override": [
+    "fullscreen",
+    "standalone"
+  ],
   "orientation": "landscape",
-  "background_color": "#cdebfb",
-  "theme_color": "#9fd6f5",
-  "categories": ["games"],
+  "background_color": "#0b0620",
+  "theme_color": "#0b0620",
+  "categories": [
+    "games"
+  ],
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
