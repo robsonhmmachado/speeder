@@ -1,6 +1,6 @@
 // Service worker do Speeder: guarda o jogo no aparelho para abrir rápido e jogar offline.
 // Ao publicar uma versão nova do jogo, aumente o número abaixo para os celulares baixarem a atualização.
-const VERSION = 'speeder-v2';
+const VERSION = 'speeder-v3';
 const FILES = [
   './',
   './index.html',
